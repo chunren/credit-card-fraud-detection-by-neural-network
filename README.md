@@ -122,6 +122,7 @@ Parts of this code were generated with the assistance of OpenAI's ChatGPT. The p
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 
 Feel free to fork this project, open issues, or contribute to its development!
