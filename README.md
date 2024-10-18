@@ -116,7 +116,7 @@ Potential improvements for the project:
 
 ## Acknowledgements
 
-Parts of this code were generated with the assistance of OpenAI's ChatGPT.
+Parts of this code were generated with the assistance of OpenAI's ChatGPT. The project is intended for educational purposes and is shared under an open-source license.
 
 
 ## License
