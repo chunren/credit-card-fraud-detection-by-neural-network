@@ -54,43 +54,43 @@ These results indicate that the model is highly effective at detecting fraudulen
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/chunren/credit-card-fraud-detection-by-neural-network.git
-   \`\`\`
+   ```
 
 2. **Install required packages:**
 
    Ensure you have Python 3.10 installed, and then run:
 
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. **Download the dataset:**
 
    Download the dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) and place it in the `data/` folder.
 
-4. **Run the project:**
+4. **Run the Notebook:**
 
-   To execute the neural network model for fraud detection, run the following command:
+   Open the notebook in JupyterLab or Jupyter Notebook, and run the code in the Section 4 of the notebook:
 
-   \`\`\`bash
-   python fraud_detection.py
-   \`\`\`
+   ```bash
+   jupyter notebook credit-card-fraud-detection-by-neural-network.ipynb
+   ```
 
    This will preprocess the data, train the model, and output the evaluation metrics.
 
 ## Project Structure
 
-\`\`\`
+```
 .
 ├── data/                     # Folder for the dataset
 ├── models/                   # Saved models and checkpoints
 ├── plots/                    # Output plots for evaluation
-├── fraud_detection.py         # Main script to run the project
+├── credit-card-fraud-detection-by-neural-network.ipynb         # Main script to run the project
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project description
-\`\`\`
+```
 
 ## Visualization
 
@@ -101,7 +101,9 @@ The project includes various visualizations for model performance:
 - **Precision-Recall Curve**
 - **Correlation Heatmap** for feature relationships
 
-![ROC Curve](./plots/roc_curve.png)
+![Performance Diagrams](./plots/performance-diagrams.png)
+![Correlation Heatmap](./plots/Correlation-Heatmap-of-Features.png)
+
 
 ## Future Work
 
@@ -111,10 +113,15 @@ Potential improvements for the project:
 - **Advanced Class Balancing:** Experiment with techniques like SMOTE or ADASYN.
 - **Ensemble Models:** Explore ensemble approaches like RandomForest or XGBoost to improve performance.
 
+
+## Acknowledgements
+
+Parts of this code were generated with the assistance of OpenAI's ChatGPT.
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to fork this project, open issues, or contribute to its development!
