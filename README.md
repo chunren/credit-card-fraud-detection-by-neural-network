@@ -114,11 +114,6 @@ Potential improvements for the project:
 - **Ensemble Models:** Explore ensemble approaches like RandomForest or XGBoost to improve performance.
 
 
-## Acknowledgements
-
-Parts of this code were generated with the assistance of OpenAI's ChatGPT. The project is intended for educational purposes and is shared under an open-source license.
-
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
