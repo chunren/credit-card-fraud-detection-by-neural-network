@@ -31,3 +31,6 @@ env/
 
 # Ignore pip dependency files
 pip-log.txt
+
+# Ignore large sample files
+data/creditcard.csv
