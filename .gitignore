@@ -1,3 +1,7 @@
+# ignore project temm files
+data/creditcard.csv
+tuning/tuning_results.txt
+
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
